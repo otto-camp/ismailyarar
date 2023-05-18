@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ismailyarar.vercel.app
+
+# Sitemaps
+Sitemap: https://ismailyarar.vercel.app/sitemap.xml
