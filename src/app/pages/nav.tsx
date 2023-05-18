@@ -54,7 +54,11 @@ export const Navigation: React.FC = () => {
         <div className="md:container flex items-center justify-between p-6 mx-auto">
           <Link
             href="/"
-            className="duration-200 text-2xl font-bold underline text-zinc-300 hover:text-zinc-100"
+            className={`duration-200 text-2xl font-bold underline ${
+              isIntersecting
+                ? "text-zinc-300 hover:text-zinc-100"
+                : "text-slate-950 hover:text-slate-700 "
+            }`}
           >
             ismailyarar
           </Link>
