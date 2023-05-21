@@ -30,10 +30,10 @@ export default function Testimonials() {
       {testimonials.map((testimonial) => (
         <div
           key={testimonial.name}
-          className="p-4 border border-gray-300 hover:border-gray-700 duration-300 rounded-xl"
+          className="p-4 border border-gray-300 hover:border-gray-700 duration-300 rounded-xl last:col-span-2"
         >
           <div className="flex gap-4">
-            <Building className="h-16 w-16"/>
+            <Building className="h-16 w-16" />
             <div>
               <h3 className="font-bold text-lg">{testimonial.name}</h3>
               <div className="sm:space-x-4">

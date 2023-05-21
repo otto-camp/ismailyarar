@@ -21,16 +21,16 @@ export default function Startup() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
             Lorem ipsum dolor
             <br />
-            <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-indigo-500 via-blue-600 to-purple-500 bg-clip-text text-transparent">
               sit amet.
             </span>
           </h1>
-          <p className="text-sm sm:text-base font-medium">
+          <p className="text-sm sm:text-base font-medium max-w-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ipsa
             omnis quod maiores? Voluptatum, iure!
           </p>
           <div className="flex justify-start items-center gap-4 max-w-md w-full">
-            <button className="px-5 py-2 shadow-lg bg-emerald-700 border border-emerald-700 hover:bg-transparent transition-all rounded-lg">
+            <button className="px-5 py-2 shadow-lg bg-blue-700 border text-white hover:text-black border-blue-700 hover:bg-transparent transition-all rounded-lg">
               Lorem ipsum dolor sit amet.
             </button>
             {/* <button className="rounded-lg border border-gray-300 bg-white px-5 py-2 shadow-lg transition-all hover:border-gray-800">
@@ -45,6 +45,7 @@ export default function Startup() {
           className="object-cover max-h-80 lg:w-1/2 lg:max-h-[580px] lg:rounded-l-lg"
         />
       </main>
+
       <section className="container mx-auto py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
@@ -89,35 +90,61 @@ export default function Startup() {
           </div>
         </div>
       </section>
-      <section className="px-4 py-6 md:py-12 flex flex-col xl:flex-row justify-between gap-4 container mx-auto">
-        <div className="space-y-4 xl:max-w-sm text-center xl:mt-12 xl:text-left">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold">
-            All-in-one platform
-          </h2>
-          <p className="text-zinc-700 max-w-sm mx-auto xl:max-w-none ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laborum
-            voluptas debitis magnam animi, maxime asperiores a, temporibus
-            voluptates distinctio modi vitae
-          </p>
-        </div>
-        <div className="grid gird-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-[900px] w-full">
-          <Features />
-        </div>
-      </section>
-      <section className="px-4 py-6 md:py-12 flex flex-col xl:flex-row justify-between gap-4 container mx-auto">
-        <div className="space-y-4 xl:max-w-sm text-center xl:mt-12 xl:text-left">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold">
-            Testimonials
-          </h2>
-          <p className="text-zinc-700 max-w-sm mx-auto xl:max-w-none">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laborum
-            voluptas debitis magnam animi
-          </p>
-        </div>
-        <div className="grid gird-cols-1 md:grid-cols-2 gap-4 max-w-[900px] w-full">
-          <Testimonials />
+
+      <section className="px-4 py-6 md:py-12 bg-slate-200">
+        <div className="container mx-auto space-y-8">
+          <div className="space-y-4 text-center">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold">
+              All-in-one platform
+            </h2>
+            <p className="text-zinc-700 max-w-md mx-auto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              laborum voluptas debitis magnam animi, maxime asperiores a,
+              temporibus voluptates distinctio modi vitae
+            </p>
+          </div>
+          <div className="grid gird-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <Features />
+          </div>
         </div>
       </section>
+
+      <section className="px-4 py-6 md:py-12">
+        <div className="container mx-auto space-y-8">
+          <div className="max-w-lg mx-auto text-center space-y-8">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold">
+              Boost your productivity.
+            </h2>
+            <p className="text-zinc-700 max-w-md mx-auto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              sed dolores quibusdam ut doloribus nostrum veniam aliquid
+              eligendi, recusandae totam, harum iusto voluptate itaque? Placeat
+              voluptate nam possimus iste magnam!
+            </p>
+            <button className="px-5 py-2 shadow-lg bg-blue-700 border text-white hover:text-black border-blue-700 hover:bg-transparent transition-all rounded-lg">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-4 py-6 md:py-12 bg-slate-200">
+        <div className="container mx-auto space-y-8">
+          <div className="space-y-4 text-center">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold">
+              Testimonials
+            </h2>
+            <p className="text-zinc-700 max-w-sm mx-auto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              laborum voluptas debitis magnam animi
+            </p>
+          </div>
+          <div className="grid gird-cols-1 md:grid-cols-2 last:col-span-2 gap-4">
+            <Testimonials />
+          </div>
+        </div>
+      </section>
+
       <footer className="border-t border-zinc-900">
         <div className="py-12 px-6 container mx-auto flex flex-col sm:flex-row gap-4 justify-between items-center">
           <div className="flex justify-center gap-4 order-2">

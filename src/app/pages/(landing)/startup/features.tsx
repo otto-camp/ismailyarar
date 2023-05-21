@@ -48,7 +48,7 @@ export default function Features() {
           className="border rounded-xl border-gray-300 hover:border-gray-700 duration-300 mx-auto p-4 w-full max-w-xs"
         >
           <div className="flex justify-start items-center gap-4">
-            <span className="p-2 bg-emerald-700 rounded-lg">
+            <span className="p-2">
               {feature.icon}
             </span>
             <h3>{feature.name}</h3>
