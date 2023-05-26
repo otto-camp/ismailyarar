@@ -1,6 +1,6 @@
 import "./global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
+import { Inter } from "next/font/google";
+import LocalFont from "next/font/local";
 import { Analytics } from "../components/analytics";
 
 export const metadata = {
@@ -15,7 +15,7 @@ export const metadata = {
     siteName: "ismail yarar",
     images: [
       {
-        url: "https://ismailyarar.vercel.app/og.png",
+        url: "https://ismailyarar.vercel.app/og.webp",
         width: 742,
         height: 212,
       },
@@ -29,6 +29,16 @@ export const metadata = {
   twitter: {
     title: "İsmail Yarar",
     card: "summary_large_image",
+    description:
+      "Front-end developer with expertise in React, Next.js, and HTML/CSS. Skilled in using Tailwind CSS, Bootstrap, and JavaScript.",
+    images: [
+      {
+        url: "https://ismailyarar.vercel.app/og.webp",
+        type: "webp",
+        width: 742,
+        height: 212,
+      },
+    ],
   },
   icons: {
     shortcut: "/favicon.png",
