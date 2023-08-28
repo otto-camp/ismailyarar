@@ -11,11 +11,11 @@ export const metadata = {
     title: "ismail yarar",
     description:
       "Front-end developer with expertise in React, Next.js, and HTML/CSS. Skilled in using Tailwind CSS, Bootstrap, and JavaScript.",
-    url: "https://ismailyarar.vercel.app/",
+    url: "https://yarar.dev/",
     siteName: "ismail yarar",
     images: [
       {
-        url: "https://ismailyarar.vercel.app/og.webp",
+        url: "https://yarar.dev/og.webp",
         width: 742,
         height: 212,
       },
@@ -33,7 +33,7 @@ export const metadata = {
       "Front-end developer with expertise in React, Next.js, and HTML/CSS. Skilled in using Tailwind CSS, Bootstrap, and JavaScript.",
     images: [
       {
-        url: "https://ismailyarar.vercel.app/og.webp",
+        url: "https://yarar.dev/og.webp",
         type: "webp",
         width: 742,
         height: 212,
